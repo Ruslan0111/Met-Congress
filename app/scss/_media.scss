@@ -1,3 +1,9 @@
+@media screen and (max-width: 1024px) {
+  .speakers {
+    padding: 65px 20px 15px 20px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .header {
     &__right {
@@ -14,6 +20,33 @@
 
     &__user-link--mobile {
       display: flex;
+    }
+  }
+
+  .speakers {
+
+    &__item {
+      flex: 0 1 calc(100% / 2 - 33px);
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .speakers {
+    padding: 40px 20px 0px 20px;
+
+    &__title {
+      font-size: 35px;
+      line-height: 40px;
+    }
+
+    &__item {
+      flex: 0 1 100%;
+      margin-bottom: 30px;
+    }
+
+    &__item-img img {
+      margin: 0 auto;
     }
   }
 }

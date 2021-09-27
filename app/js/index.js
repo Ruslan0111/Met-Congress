@@ -1,5 +1,5 @@
 window.onload = function() {
-  document.querySelector('.header__burger-inner').addEventListener('click', function() {
+  document.querySelector('.header__burger').addEventListener('click', function() {
     document.querySelector('.header__burger-inner').classList.toggle('header__burger-inner--active');
     document.querySelector('.header__menu').classList.toggle('header__menu--active');
     document.querySelector('.modal-bg').classList.toggle('modal-bg--active');
